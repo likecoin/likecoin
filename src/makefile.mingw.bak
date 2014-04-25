@@ -1,0 +1,89 @@
+# Copyright (c) 2009-2010 Satoshi Nakamoto
+# Distributed under the MIT/X11 software license, see the accompanying
+# file license.txt or http://www.opensource.org/licenses/mit-license.php.
+
+USE_UPNP:=0
+
+INCLUDEPATHS?= \
+ -I"C:\deps\boost" \
+ -I"C:\deps\db\build_unix" \
+ -I"C:\deps\ssl\include"
+
+LIBPATHS?= \
+ -L"C:\deps\boost\stage\lib" \
+ -L"C:\deps\db\build_unix" \
+ -L"C:\deps\ssl"
+
+LIBS= \
+ -l boost_system-mgw46-mt-s-1_49 \
+ -l boost_filesystem-mgw46-mt-s-1_49 \
+ -l boost_program_options-mgw46-mt-s-1_49 \
+ -l boost_thread-mgw46-mt-s-1_49 \
+ -l db_cxx \
+ -l ssl \
+ -l crypto
+
+DEFS=-D_MT -DWIN32 -DWIN32_LEAN_AND_MEAN -D_WINDOWS -DBOOST_THREAD_USE_LIB -DBOOST_SPIRIT_THREADSAFE -DUSE_IPV6 -D__NO_SYSTEM_INCLUDES
+DEBUGFLAGS=-g
+CFLAGS=${ADDITIONALCCFLAGS} -mthreads -O2 -w -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter $(DEBUGFLAGS) $(DEFS) $(INCLUDEPATHS)
+
+TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
+
+
+
+LIBS +=  -l mingwthrd -l kernel32 -l user32 -l gdi32 -l comdlg32 -l winspool -l winmm -l shell32 -l comctl32 -l ole32 -l oleaut32 -l uuid -l rpcrt4 -l advapi32 -l ws2_32 -l mswsock -l shlwapi
+
+# TODO: make the mingw builds smarter about dependencies, like the linux/osx builds are
+HEADERS = $(wildcard *.h)
+
+OBJS= \
+    obj/version.o \
+    obj/checkpoints.o \
+    obj/netbase.o \
+    obj/addrman.o \
+    obj/crypter.o \
+    obj/key.o \
+    obj/db.o \
+    obj/init.o \
+    obj/irc.o \
+    obj/keystore.o \
+    obj/main.o \
+    obj/net.o \
+    obj/protocol.o \
+    obj/bitcoinrpc.o \
+    obj/rpcdump.o \
+    obj/rpcnet.o \
+    obj/rpcrawtransaction.o \
+    obj/script.o \
+    obj/scrypt.o \
+    obj/sync.o \
+    obj/util.o \
+    obj/wallet.o \
+    obj/walletdb.o \
+    obj/noui.o
+
+
+all: likecoin.exe
+
+obj/scrypt.o: scrypt.c
+	gcc -c $(CFLAGS) -o $@ $^
+
+obj/%.o: %.cpp $(HEADERS)
+	g++ -c $(CFLAGS) -o $@ $<
+
+likecoin.exe: $(OBJS:obj/%=obj/%)
+	g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
+
+TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
+
+obj-test/%.o: test/%.cpp $(HEADERS)
+	g++ -c $(TESTDEFS) $(CFLAGS) -o $@ $<
+
+test_likecoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+	g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework $(LIBS)
+
+clean:
+	-del /Q likecoin test_likecoin
+	-del /Q obj\*
+	-del /Q obj-test\*
+	-del /Q build.h
