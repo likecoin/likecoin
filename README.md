@@ -18,6 +18,7 @@ We are also on [CoinGecko](https://www.coingecko.com/en/coins/likecoin)
 
 ### Documentation
 - [LikeCoin DAO](https://github.com/likecoin/dao)
+- [LikeCoin button integration guide](https://github.com/likecoin/LikeCoinButton-integration)
 - [LikeCoin official website](https://github.com/likecoin/like-co)
 
 ### Infrastructure
