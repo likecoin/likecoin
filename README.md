@@ -28,6 +28,7 @@ We are also on [CoinGecko](https://www.coingecko.com/en/coins/likecoin)
 - [Liker Land website](https://github.com/likecoin/liker-land)
 - [Liker Land mobile app](https://github.com/likecoin/likecoin-app)
 - [LikeCoin Button](https://github.com/likecoin/likecoin-button)
+- [Migrate to LikeCoin chain website](https://github.com/likecoin/migrate-to-likecoin-chain)
 
 ### Extensions
 - [LikeCoin WordPress plugin](https://github.com/likecoin/likecoin-wordpress)
