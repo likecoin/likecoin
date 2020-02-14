@@ -1,9 +1,10 @@
-<p align="center"><a href="https://like.co" target="_blank" rel="noopener noreferrer"><img width="100" src="https://like.co/logo.png" alt="LikeCoin logo"></a></p>
+<p><a href="https://like.co" target="_blank" rel="noopener noreferrer"><img width="100" src="https://like.co/logo.png" alt="LikeCoin logo"></a></p>
 
 [![Number of Liker](https://static.like.co/badge/stats/liker.svg)](https://like.co/)
 [![Number of creator](https://static.like.co/badge/stats/creator.svg)](https://like.co/)
 [![Number of content](https://static.like.co/badge/stats/content.svg)](https://like.co/)
 [![Number of LIKE given](https://static.like.co/badge/stats/LIKE.svg)](https://like.co/)
+
 ## LikeCoin
 [LikeCoin](https://like.co/) is a decentralized protocol for content monetization, attribution, and distribution.
 
