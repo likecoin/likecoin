@@ -23,8 +23,18 @@ We are also on [CoinGecko](https://www.coingecko.com/en/coins/likecoin)
 
 ### Documentation
 - [LikeCoin DAO](https://github.com/likecoin/dao)
+- [ISCN spec (WIP)](https://github.com/likecoin/iscn-specs)
 - [LikeCoin button integration guide](https://github.com/likecoin/LikeCoinButton-integration)
 - [LikeCoin official website](https://github.com/likecoin/like-co)
+
+### Libraries/SDK
+- [LikeCoin button SDK (WIP)](https://github.com/likecoin/likecoin-button-sdk)
+- [LIKE pay SDK (WIP)](https://github.com/likecoin/like-pay)
+
+
+### Extensions
+- [LikeCoin WordPress plugin](https://github.com/likecoin/likecoin-wordpress)
+- [Liker Land browser extension](https://github.com/likecoin/liker-land-browser-extension)
 
 ### Infrastructure
 - [LikeCoin chain node](https://github.com/likecoin/likecoin-chain)
@@ -35,7 +45,4 @@ We are also on [CoinGecko](https://www.coingecko.com/en/coins/likecoin)
 - [LikeCoin Button](https://github.com/likecoin/likecoin-button)
 - [Migrate to LikeCoin chain website](https://github.com/likecoin/migrate-to-likecoin-chain)
 
-### Extensions
-- [LikeCoin WordPress plugin](https://github.com/likecoin/likecoin-wordpress)
-- [Liker Land browser extension](https://github.com/likecoin/liker-land-browser-extension)
 
