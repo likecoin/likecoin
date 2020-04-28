@@ -1,22 +1,27 @@
 {
-  "repo" :"likecoin/likecoin",
-  "author" : "LikeCoin Foundation",
-  "status" : "Planning",
+  "repo": "likecoin/likecoin",
+  "author": "LikeCoin Foundation",
+  "status": "Planning",
   "name": "LikeCoin project portal",
   "name_zh": "LikeCoin 專案傳送門",
   "description": "LikeCoin is a decentralized protocol for content monetization, attribution, and distribution. Empowered by LikeCoin, media form Republic of Liker Land, a decentralized autonomous organization (DAO) governed by liquid democracy. In Liker Land, every content is a registered asset on LikeCoin chain and every Like is a reward to creators in LikeCoin token.",
   "description_zh": "LikeCoin 為解決內容變現、溯源及發行而設計的分散式協議。所有內容在 LikeCoin chain、LikeCoin 通證及相應的應用程式介面、來自讚賞公民共和國的媒體以分散式自治組織的方式支持下，獲得註冊認證，並且創作者能因為每個按讚而獲得回饋。",
-  "homepage" : "https://like.co/",
-  "thumbnail" : "https://like.co/logo.png",
+  "homepage": "https://like.co/",
+  "thumbnail": "https://like.co/logo.png",
   "document": "https://docs.like.co/",
   "repository": "https://github.com/likecoin/likecoin",
-  "licenses": ["GPL-v3"],
+  "licenses": [
+    "GPL-v3"
+  ],
   "keywords": [
-    "likecoin",
+    "likecoin"
   ],
   "audience": [
     "public"
   ],
-  "products" :["https://like.co/", "https://docs.like.co/"],
-  "partOf": "likecoin",
+  "products": [
+    "https://like.co/",
+    "https://docs.like.co/"
+  ],
+  "partOf": "likecoin"
 }
