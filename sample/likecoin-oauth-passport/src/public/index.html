@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div v-if="isLoading">Loading...</div>
+        <div v-else-if="user">
+          <img v-if="user.avatar" :src="user.avatar" />
+          <div>Welcome, {{ user.displayName }}!</div>
+          <div>{{ user.cosmosWallet }}</div>
+          <button @click="logout">Logout</button>
+        </div>
+        <div v-else>
+          <div>You are not logged in!</div>
+          <button @click="login">Login via LikeCoin</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script>
+      const app = new Vue({
+        el: "#app",
+        data() {
+          return {
+            isLoading: true,
+            user: null
+          };
+        },
+        methods: {
+          async getUserInformation() {
+            const { data } = await axios.get("/api/users/self");
+            console.log(data);
+            if (data) this.user = data;
+          },
+          login() {
+            window.location.href = "/api/auth/likecoin";
+          },
+          logout() {
+            window.location.href = "/api/users/logout";
+          }
+        },
+        async mounted() {
+          try {
+            await this.getUserInformation();
+          } catch (err) {
+            console.error(err);
+          }
+          this.isLoading = false;
+        }
+      });
+    </script>
+    <style></style>
+  </body>
+</html>
