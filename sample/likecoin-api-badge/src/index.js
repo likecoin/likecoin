@@ -15,7 +15,11 @@ const labels = {
   LIKE: "LIKEs"
 };
 
-app.get("/badge/stats/liker.svg", async (req, res) => {
+app.get("/", (req, res) => {
+  res.redirect(SVG_PATH);
+});
+
+app.get(SVG_PATH, async (req, res) => {
   try {
     const { data } = await axios.get(STAT_API);
     const svg = bf.create({
