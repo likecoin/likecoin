@@ -4,7 +4,11 @@
   <body>
     <div id="app">
       <div class="container">
-        <div v-if="isLoading">Loading...</div>
+        <div v-if="isIframed">
+          Please open this demo in a
+          <a :href="currentURL" target="_blank">new window</a>
+        </div>
+        <div v-else-if="isLoading">Loading...</div>
         <div v-else-if="user">
           <img v-if="user.avatar" :src="user.avatar" />
           <div>Welcome, {{ user.displayName }}!</div>
@@ -27,6 +31,14 @@
             isLoading: true,
             user: null
           };
+        },
+        computed: {
+          isIframed() {
+            return window.parent !== window;
+          },
+          currentURL() {
+            return window.location;
+          }
         },
         methods: {
           async getUserInformation() {
