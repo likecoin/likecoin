@@ -8,13 +8,13 @@
 ## LikeCoin
 [LikeCoin](https://like.co) is a Decentralized Publishing Infrastructure. It reinvents the publishing industry with decentralized registry, rewards, editorial, and governance.
 
-## What is LikeCoin?
-Visit our [gitbook](https://docs.like.co) to know more.
+## User Guide
+- [User guide](https://docs.like.co) for writers and readers
 
-## Ecosystem statistic
-Real time statistic is available in our [chain explorer](https://likecoin.bigdipper.live/) and [LikeCoin official website](https://like.co/)
+## Statistics
+Real time statistics are available in [Big Dipper chain explorer](https://likecoin.bigdipper.live/).
 
-We are also on [CoinGecko](https://www.coingecko.com/en/coins/likecoin)
+Statistics on LikeCoin token can be found on [CoinGecko](https://www.coingecko.com/en/coins/likecoin) and [Coinmarketcap](https://coinmarketcap.com/currencies/likecoin/).
 
 ## Repositories
 
@@ -36,8 +36,8 @@ We are also on [CoinGecko](https://www.coingecko.com/en/coins/likecoin)
 - [LikeCoin chain node](https://github.com/likecoin/likecoin-chain)
 
 ### Official Applications
-- [Liker Land website](https://github.com/likecoin/liker-land)
 - [Liker Land mobile app](https://github.com/likecoin/likecoin-app)
+- [Liker Land website](https://github.com/likecoin/liker-land)
 - [LikeCoin Button](https://github.com/likecoin/likecoin-button)
 - [Migrate to LikeCoin chain website](https://github.com/likecoin/migrate-to-likecoin-chain)
 
