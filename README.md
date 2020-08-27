@@ -6,13 +6,10 @@
 [![Number of LIKE given](https://static.like.co/badge/stats/LIKE.svg)](https://like.co/)
 
 ## LikeCoin
-[LikeCoin](https://like.co/) is a decentralized protocol for content monetization, attribution, and distribution.
+[LikeCoin](https://like.co) is a Decentralized Publishing Infrastructure. It reinvents the publishing industry with decentralized registry, rewards, editorial, and governance.
 
 ## What is LikeCoin?
 Visit our [gitbook](https://docs.like.co) to know more.
-
-## Constitution
-[The Constitution of Republic of Liker Land](https://docs.like.co/constitution)
 
 ## Ecosystem statistic
 Real time statistic is available in our [chain explorer](https://likecoin.bigdipper.live/) and [LikeCoin official website](https://like.co/)
@@ -30,7 +27,6 @@ We are also on [CoinGecko](https://www.coingecko.com/en/coins/likecoin)
 ### Libraries/SDK
 - [LikeCoin button SDK (WIP)](https://github.com/likecoin/likecoin-button-sdk)
 - [LIKE pay SDK (WIP)](https://github.com/likecoin/like-pay)
-
 
 ### Extensions
 - [LikeCoin WordPress plugin](https://github.com/likecoin/likecoin-wordpress)
