@@ -1,4 +1,5 @@
 # LikeCoin NFT Module Spec
+Please check latest version at [docs.like.co](https://docs.like.co/developer/likenft/likecoin-nft-module-spec)
 
 Created: February 17, 2022 8:12 PM
 
@@ -13,6 +14,7 @@ Created: February 17, 2022 8:12 PM
 * 2022-06-16: Add module params for marketplace.
 * 2022-06-28: Add royalty config store. Rename the term MintableNFT to BlindBoxContent. Refactor BlindBoxState in class data. State that fee per byte is applicable to class data as well.
 * 2022-07-04: Finalize sdk version for initial release. Add info on future improvements.
+* 2022-07-25: Add class metata recommendation related to meta collection and writing NFTs.
 
 ### Authors
 
@@ -236,6 +238,7 @@ message ClassesByAccountStoreRecord {
     ```
 
     * No metadata standard is explicitly enforced. Users and dapp developers can take reference of the OpenSea standard: [https://docs.opensea.io/docs/contract-level-metadata](https://docs.opensea.io/docs/contract-level-metadata)
+    * If multiple classses are created to form a collection of NFT classes, the [NFT meta collection keys](./metadata.md) should be set in the metadata. An example can be found in [Writing NFT specification](./writing_nft.md).
     * In `class_parent`, either ISCN fields or account will be filled, depending on the parent type.
       * `iscn_version_at_mint` is the latest ISCN version observed when the first token is minted for this class. Before minting, It will also be refreshed whenever user calls `UpdateClass`. It will be frozen after the first token is minted (in line with `UpdateClass`'s policy).
         * This is an extra datum to safeguard against the misuse of ISCN versioning. Generally speaking, users shall try to refer to the latest version of the ISCN when utilizing the Class’s / NFT’s metadata, since the ISCN prefix alone is expected to be representative of the registered content.
