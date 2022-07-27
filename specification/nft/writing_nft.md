@@ -15,8 +15,8 @@ Each writing NFT class represent a creative work registered on an ISCN. To allow
 | key                                     | value                                                   | description                                    |
 | --------------------------------------- | ------------------------------------------------------- | ---------------------------------------------- |
 | name                                    | Writing NFT - {ISCN name}                               | Name of ISCN prefix with Writing NFT           |
-| sybmol                                  | WRITING                                                 | `WRITING` is used as symbol                    |
-| uri                                     | https://api.like.co/likernft/metadata?iscn_id={iscn_id} | Dynamic API from api.like.co, query by iscn id |
+| symbol                                  | WRITING                                                 | `WRITING` is used as symbol                    |
+| uri                                     | https://api.like.co/likernft/metadata?iscn_id={iscn_id} | Dynamic API from api.like.co, query by ISCN ID |
 | metadata                                |                                                         |                                                |
 | metadata.nft_meta_collection_id         | likerland_writing_nft                                   | ID of the Writing NFT meta collection          |
 | metadata.nft_meta_collection_name       | Writing NFT                                             | Name of Writing NFT meta collection            |
