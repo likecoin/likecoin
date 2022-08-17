@@ -1,4 +1,4 @@
-<p><a href="https://like.co" target="_blank" rel="noopener noreferrer"><img width="100" src="https://like.co/logo.png" alt="LikeCoin logo"></a></p>
+[<p><a href="https://like.co" target="_blank" rel="noopener noreferrer"><img width="100" src="https://like.co/logo.png" alt="LikeCoin logo"></a></p>
 
 [![Number of Liker](https://static.like.co/badge/stats/liker.svg)](https://like.co/)
 [![Number of creator](https://static.like.co/badge/stats/creator.svg)](https://like.co/)
@@ -6,53 +6,62 @@
 [![Number of LIKE given](https://static.like.co/badge/stats/LIKE.svg)](https://like.co/)
 
 ## LikeCoin
+
 [LikeCoin](https://like.co) is a Decentralized Publishing Infrastructure. It reinvents the publishing industry with decentralized registry, rewards, editorial, and governance.
 
-## User Guide
-- [User guide](https://docs.like.co) for writers and readers
+## Documentation
 
-## Statistics
-Real time statistics are available in [Big Dipper chain explorer](https://likecoin.bigdipper.live/).
-
-Statistics on LikeCoin token can be found on [CoinGecko](https://www.coingecko.com/en/coins/likecoin) and [Coinmarketcap](https://coinmarketcap.com/currencies/likecoin/).
-
-## Repositories
-
-### LikeCoin chain config and information
-- [mainnet](https://github.com/likecoin/mainnet)
-- [testnet](https://github.com/likecoin/testnet)
-
-### Chain explorer and staking tools
-- https://stake.like.co/
-- https://likecoin.bigdipper.live/
-- https://ping.pub/likecoin
-- https://likecoin.omniflix.co/
-- https://wallet.bitsong.io/
-
-
-### Documentation
-- [LikeCoin DAO](https://github.com/likecoin/dao)
-- [ISCN specification](https://github.com/likecoin/iscn-specs)
-- [LikeCoin official website](https://github.com/likecoin/like-co)
+- [Documentation](https://docs.like.co) for developer, validators, writers and readers
+- [ISCN specification](https://iscn.io)
+- [LikeCoin official website](https://like.co)
 - [LikeCoin button integration guide](https://github.com/likecoin/LikeCoinButton-integration)
 
-### Libraries/SDK
+## Token information
+
+- [CoinGecko](https://www.coingecko.com/en/coins/likecoin)
+- [Coinmarketcap](https://coinmarketcap.com/currencies/likecoin/)
+
+## LikeCoin chain config and information
+
+- [Mainnet](https://github.com/likecoin/mainnet)
+- [Testnet](https://github.com/likecoin/testnet)
+
+## Chain explorer and staking tools
+
+- [dao.like.co](https://dao.like.co/)
+- [dao.like.co revamp (beta)](https://dao-beta.like.co/)
+- [Big Dipper](https://likecoin.bigdipper.live/)
+- [ping.pub](https://ping.pub/likecoin)
+- [Omniflix](https://likecoin.omniflix.co/)
+- [Bitsong](https://wallet.bitsong.io/)
+
+## Libraries/SDK
+
 - [ISCN-js](https://github.com/likecoin/iscn-js)
 - [LikeCoin-js(WIP)](https://github.com/likecoin/likecoin-js)
 - [LikeCoin button SDK (WIP)](https://github.com/likecoin/likecoin-button-sdk)
 
-### Extensions
-- [LikeCoin WordPress plugin](https://github.com/likecoin/likecoin-wordpress)
-- [Liker Land browser extension](https://github.com/likecoin/liker-land-browser-extension)
+## Extensions
 
-### Infrastructure
+- [LikeCoin WordPress plugin](https://wordpress.org/plugins/likecoin/) ([source](https://github.com/likecoin/likecoin-wordpress))
+- [Liker Land browser extension](https://chrome.google.com/webstore/detail/liker-land/cjjcemdmkddjbofomfgjedpiifpgkjhe) ([source](https://github.com/likecoin/liker-land-browser-extension))
+
+## Infrastructure
+
 - [LikeCoin chain node](https://github.com/likecoin/likecoin-chain)
+- [LikeCoin chain indexer](https://github.com/likecoin/likecoin-chain-tx-indexer)
 
-### Official Applications
-- [app.like.co](https://github.com/likecoin/app-like-co)
-- [Liker Land mobile app](https://github.com/likecoin/likecoin-app)
-- [Liker Land website](https://github.com/likecoin/liker-land)
-- [LikeCoin Button](https://github.com/likecoin/likecoin-button)
-- [Migrate to LikeCoin chain website](https://github.com/likecoin/migrate-to-likecoin-chain)
+## Official Applications
 
+- [app.like.co](https://app.like.co) ([source](https://github.com/likecoin/app-like-co))
+- [Liker Land mobile app](https://liker.land/getapp) ([source](https://github.com/likecoin/likecoin-app))
+- [Liker Land website](https://liker.land) ([source](https://github.com/likecoin/liker-land))
+- [LikeCoin Button](https://button.like.co) ([source](https://github.com/likecoin/likecoin-button))
+- [Migrate to LikeCoin chain website](https://migration.like.co) ([source](https://github.com/likecoin/migrate-to-likecoin-chain))
+- [LikeCoin Discord Bot](https://discord.com/api/oauth2/authorize?client_id=968159446381522966&permissions=2048&scope=bot%20applications.commands) ([source](https://github.com/likecoin/likecoin-discord-bot/))
 
+## Other Applications and dashboards
+
+- [ISCN Browser](https://iscn.wancat.cc) by [lancatlin](https://github.com/lancatlin) ([source](https://github.com/likecoin/iscn-browser))
+- [NFT Dashboard](https://github.com/likecoin/likecoin-nft-dashboard) by [lancatlin](https://github.com/lancatlin) ([source](https://github.com/likecoin/likecoin-nft-dashboard))
+- [ISCN Wallet](http://iscn.catding.tw) by [catdingding](https://github.com/catdingding) ([source](https://github.com/catdingding/iscn-wallet))
