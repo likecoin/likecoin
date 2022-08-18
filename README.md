@@ -1,4 +1,4 @@
-[<p><a href="https://like.co" target="_blank" rel="noopener noreferrer"><img width="100" src="https://like.co/logo.png" alt="LikeCoin logo"></a></p>
+<p><a href="https://like.co" target="_blank" rel="noopener noreferrer"><img width="100" src="https://like.co/logo.png" alt="LikeCoin logo"></a></p>
 
 [![Number of Liker](https://static.like.co/badge/stats/liker.svg)](https://like.co/)
 [![Number of creator](https://static.like.co/badge/stats/creator.svg)](https://like.co/)
@@ -64,7 +64,6 @@
 
 ### ISCN viewer and editor
 - [ISCN Browser](https://iscn.wancat.cc) by [lancatlin](https://github.com/lancatlin) ([source](https://github.com/likecoin/iscn-browser))
-
 - [ISCN Wallet](http://iscn.catding.tw) by [catdingding](https://github.com/catdingding) ([source](https://github.com/catdingding/iscn-wallet))
 
 ### Dashboard
@@ -72,4 +71,4 @@
 - [Creator Fund #2](https://matters.news/@baoshin/250889)
 - [Civic Liker](https://matters.news/@baoshin/244957)
 - [ISCN Dashboard](https://datastudio.google.com/u/0/reporting/cdd29e11-db72-4336-b0c1-9e92a82614fb/page/AbpZC)
-- [NFT Dashboard](https://github.com/likecoin/likecoin-nft-dashboard) by [lancatlin](https://github.com/lancatlin) ([source](https://github.com/likecoin/likecoin-nft-dashboard))
+- [NFT Dashboard](https://likecoin.github.io/likecoin-nft-dashboard/) by [lancatlin](https://github.com/lancatlin) ([source](https://github.com/likecoin/likecoin-nft-dashboard))
