@@ -4,6 +4,9 @@
 [![Number of creator](https://static.like.co/badge/stats/creator.svg)](https://like.co/)
 [![Number of content](https://static.like.co/badge/stats/content.svg)](https://like.co/)
 [![Number of LIKE given](https://static.like.co/badge/stats/LIKE.svg)](https://like.co/)
+[![Number of active wallet](https://static.like.co/badge/stats/wallet.svg)](https://dao.like.co/)
+[![Number of ISCN](https://static.like.co/badge/stats/iscn.svg)](https://iscn.io/)
+[![Number of NFT](https://static.like.co/badge/stats/nft.svg)](https://liker.land/)
 
 ## LikeCoin
 
