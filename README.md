@@ -27,7 +27,7 @@
 ## LikeCoin chain config and information
 
 - [Mainnet](https://github.com/likecoin/mainnet)
-- [Testnet](https://github.com/likecoin/testnet)
+- [Testnet](https://github.com/likecoin/testnets)
 
 ## Chain explorer and staking tools
 
