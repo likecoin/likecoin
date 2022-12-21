@@ -64,9 +64,10 @@
 - [LikeCoin Discord Bot](https://discord.com/api/oauth2/authorize?client_id=968159446381522966&permissions=2048&scope=bot%20applications.commands) ([source](https://github.com/likecoin/likecoin-discord-bot/))
 
 ## Other Applications and dashboards
+- [NFT Marketplace](https://likecoin.github.io/likecoin-nft-marketplace/) ([source](https://github.com/likecoin/likecoin-nft-marketplace))
 
 ### ISCN viewer and editor
-- [ISCN Browser](https://iscn.wancat.cc) by [lancatlin](https://github.com/lancatlin) ([source](https://github.com/likecoin/iscn-browser))
+- [ISCN Browser](https://likecoin.github.io/iscn-browser/) by [lancatlin](https://github.com/lancatlin) ([source](https://github.com/likecoin/iscn-browser))
 - [ISCN Wallet](http://iscn.catding.tw) by [catdingding](https://github.com/catdingding) ([source](https://github.com/catdingding/iscn-wallet))
 
 ### Dashboard
