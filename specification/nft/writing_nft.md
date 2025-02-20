@@ -12,15 +12,15 @@ Read more about [Writing NFT here](https://blog.like.co/en/writing-nft-medium-fo
 
 Each writing NFT class represent a creative work registered on an ISCN. To allow easier search and collection of all Writing NFTs created by a same creator, [nft_meta_collection](./metadata.md) fields would be used. A dynamic API is used as uri to provide dynamic metadata according to mint purchase status.
 
-| key                                     | value                                                   | description                                    |
-| --------------------------------------- | ------------------------------------------------------- | ---------------------------------------------- |
-| name                                    | Writing NFT - {ISCN name}                               | Name of ISCN prefix with Writing NFT           |
-| symbol                                  | WRITING                                                 | `WRITING` is used as symbol                    |
-| uri                                     | https://api.like.co/likernft/metadata?iscn_id={iscn_id} | Dynamic API from api.like.co, query by ISCN ID |
-| metadata                                |                                                         |                                                |
-| metadata.nft_meta_collection_id         | likerland_writing_nft                                   | ID of the Writing NFT meta collection          |
-| metadata.nft_meta_collection_name       | Writing NFT                                             | Name of Writing NFT meta collection            |
-| metadata.nft_meta_collection_descrption | Writing NFT by Liker Land                               | Description of Writing NFT                     |
+| key                                      | value                                                   | description                                    |
+| ---------------------------------------- | ------------------------------------------------------- | ---------------------------------------------- |
+| name                                     | Writing NFT - {ISCN name}                               | Name of ISCN prefix with Writing NFT           |
+| symbol                                   | WRITING                                                 | `WRITING` is used as symbol                    |
+| uri                                      | https://api.like.co/likernft/metadata?iscn_id={iscn_id} | Dynamic API from api.like.co, query by ISCN ID |
+| metadata                                 |                                                         |                                                |
+| metadata.nft_meta_collection_id          | likerland_writing_nft                                   | ID of the Writing NFT meta collection          |
+| metadata.nft_meta_collection_name        | Writing NFT                                             | Name of Writing NFT meta collection            |
+| metadata.nft_meta_collection_description | Writing NFT by Liker Land                               | Description of Writing NFT                     |
 
 ## NFT Instance metadata
 
