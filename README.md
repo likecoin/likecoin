@@ -5,7 +5,7 @@
 [![Number of content](https://static.like.co/badge/stats/content.svg)](https://like.co/)
 [![Number of LIKE given](https://static.like.co/badge/stats/LIKE.svg)](https://like.co/)
 [![Number of active wallet](https://static.like.co/badge/stats/wallet.svg)](https://dao.like.co/)
-[![Number of ISCN](https://static.like.co/badge/stats/iscn.svg)](https://iscn.io/)
+[![Number of ISCN](https://static.like.co/badge/stats/iscn.svg)](https://like.co/)
 [![Number of NFT](https://static.like.co/badge/stats/nft.svg)](https://liker.land/)
 
 ## LikeCoin
@@ -15,7 +15,6 @@
 ## Documentation
 
 - [Documentation](https://docs.like.co) for developer, validators, writers and readers
-- [ISCN specification](https://iscn.io)
 - [LikeCoin official website](https://like.co)
 - [LikeCoin button integration guide](https://github.com/likecoin/LikeCoinButton-integration)
 
